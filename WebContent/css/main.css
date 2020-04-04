@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*********************************************顶部内容**********************************************/
+.header{
+	/*清除溢出*/
+	widows: 100px;
+	height: 41px;
+	background-color: rgb(60,141,188);
+}
+
+.logo{
+	width: 100px;
+	margin-left: 300px;
+	margin-top: 7px;
+	vertical-align: middle;
+}
+
+#search{
+	background: url(../img/search4.png) no-repeat;
+	background-color: white;
+	text-indent: 30px;
+	margin-left: 10px;
+	margin-top: 3px;
+	border-radius: 15px;
+	border: #8C8C8C solid 1px;
+}
+
+.nav a{
+	margin-left: 35px;
+	text-decoration: none;
+	color: white;
+}
+
+/*具体登录模块*/
+
+.login{
+	margin-left: 10px;
+}
+.logintitle{
+	color: rgb(60,141,188);
+	font-weight: 800;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.form-group{
+	list-style:none;
+	text-align: center;
+}
+.verificat{
+	list-style:none;
+}
+.autologin{
+	list-style:none;
+}
+
+.envelope{
+	margin-top: 12px;
+	margin-left: 200px;
+}
+
+/*********************************************中间内容**********************************************/
+.container{
+	background-color: rgb(236,240,245);
+	background-color: red;
+	max-height:90%;
+	overflow-y:auto;
+	margin-bottom: 50px;
+}
+
+
+.mainarticle{
+	float: left;
+	width: 65%;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#article{
+	margin-top: 10px;
+	height: 200px;
+	background-color: #0062CC;
+}
+
+#article ul li{
+	list-style: none;
+}
+#article1{
+	height: 200px;
+	background-color: #0062CC;
+	overflow: hidden;
+}
+
+#article1 ul li{
+	list-style: none;
+}
+
+
+.articleimg{
+	float: left;
+	background: url(../img/logo1.png);
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+.lefttitle{
+	float: left;
+	width: 7%;
+	margin-top: 40px;
+	background: yellow;
+}
+/*左边title*/
+.lefttitle ul li{
+	list-style: none;
+	padding: 20px 10px;
+	
+}
+.lefttitle ul li:hover{
+	background: red;
+}
+
+.rightinfo{
+	/*文章内容*/
+	width: 16%;
+	float: left;
+	margin-top: 40px;
+	margin-left: 2%;
+}
+.articletitle{
+	margin-left: 650px;	
+	padding-top: 20px;
+}
+.articlcontent{
+	overflow: hidden;
+	padding-top: 10px;
+	padding-left: 20px;
+	width: 600px;
+	height: 80px;
+}
+.articletime{
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+
+}
+.accessarticle{
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+.nextarticle{
+	float: right;
+	margin-right: 50px;
+}
+
